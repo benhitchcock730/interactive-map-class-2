@@ -1,0 +1,65 @@
+* {
+    font-family: sans-serif
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+  }
+  
+  .card1 {
+    border: 1px solid #000000;
+    background-color: #fe5200;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 0 6px 0;
+    text-align: center;
+  }
+  
+  .card1:hover {
+    background-color: #7B3F00;
+    cursor: pointer;
+  }
+  
+  .card2 {
+    border: 1px solid #000000;
+    background-color: hsl(208, 100%, 55%);
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 0 6px 0;
+    text-align: center;
+  }
+  
+  .card2:hover {
+    background-color: #7B3F00;
+    cursor: pointer;
+  }
+  
+  .card3 {
+    border: 1px solid #000000;
+    background-color: #FDD835;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 0 6px 0;
+    text-align: center;
+  }
+  
+  .card3:hover {
+    background-color: #7B3F00;
+    cursor: pointer;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  
+  .artist-name {
+    font-size: 10px;
+  }
+  
+  #column-right {
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    padding-top: 55px;
+  }
