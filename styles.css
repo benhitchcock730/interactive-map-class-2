@@ -2,8 +2,13 @@
     font-family: sans-serif
   }
   
+  .title{
+    text-align: center;
+  }
+
   .container {
-    width: 100%;
+    width: 80%;
+    height: 30%;
     display: flex;
   }
   
@@ -51,6 +56,7 @@
   
   .column {
     flex: 50%;
+    padding:20px;
   }
   
   .artist-name {
@@ -63,5 +69,6 @@
     text-align: center;
     padding-top: 55px;
     height: 50vw;
-
+/* I didn't have time to fix the issues with the padding around the images, 
+but I did the other things you suggested in your assignment feedback. Will continue to refine! */
   }
